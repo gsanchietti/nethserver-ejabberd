@@ -12,7 +12,7 @@ Requires(post): systemd
 Requires(preun): systemd
 Requires(postun): systemd
 
-Requires: ejabberd
+Requires: ejabberd = 17.08
 Requires: nethserver-httpd
 
 %description
